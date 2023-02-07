@@ -26,7 +26,7 @@ define( 'DB_NAME', 'wp_papa' );
 define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'root' );
+define( 'DB_PASSWORD', '@Borisa1730' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
@@ -91,6 +91,9 @@ define( 'WP_DEBUG', false );
 if ( ! defined( 'ABSPATH' ) ) {
 	define( 'ABSPATH', __DIR__ . '/' );
 }
+
+define( 'WP_HOME', 'https://grigoruk.be' );
+define( 'WP_SITEURL', 'https://grigoruk.be' );
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
